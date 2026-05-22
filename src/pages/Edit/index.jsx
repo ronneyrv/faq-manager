@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
+import faqService from "../../services/faqService";
 import {
   Box,
   Button,
@@ -45,70 +46,69 @@ export default function Edit() {
     setPassword("");
   };
 
-  const handleDelete = () => {
+  const handleDelete = async () => {
     if (username === "admin" && password === "123") {
-      fetch(`http://localhost:3001/faq/${selectedDelId}`, {
-        method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ question, answer }),
-      })
-        .then((res) => {
-          if (res.ok) {
-            setDel(true);
-            setTimeout(() => {
-              navigate("/");
-            }, 2000);
-          } else {
-            setError(true);
-          }
-        })
-        .catch(() => setError(true))
-        .finally(() => setLoading(false));
+      try {
+        setLoading(true);
+
+        await faqService.deleteFaq(selectedDelId);
+
+        setDel(true);
+
+        setTimeout(() => {
+          navigate("/");
+        }, 2000);
+      } catch (error) {
+        console.error(error);
+        setError(true);
+      } finally {
+        setLoading(false);
+      }
     } else {
       alert("Login ou senha incorretos.");
     }
+
     handleCloseDialog();
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
     setLoading(true);
 
-    fetch(`http://localhost:3001/faq/${id}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ question, answer }),
-    })
-      .then((res) => {
-        if (res.ok) {
-          setSuccess(true);
-          setTimeout(() => {
-            navigate("/");
-          }, 2000);
-        } else {
-          setError(true);
-        }
-      })
-      .catch(() => setError(true))
-      .finally(() => setLoading(false));
+    try {
+      await faqService.updateFaq(id, {
+        question,
+        answer,
+      });
+
+      setSuccess(true);
+
+      setTimeout(() => {
+        navigate("/");
+      }, 2000);
+    } catch {
+      setError(true);
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
-    fetch(`http://localhost:3001/faq/${id}`)
-      .then((res) => res.json())
-      .then((data) => {
+    const loadFaq = async () => {
+      try {
+        const data = await faqService.getFaqById(id);
+
         setQuestion(data.question);
         setAnswer(data.answer);
+      } catch {
+        alert("Erro ao buscar FAQ");
+      } finally {
         setLoading(false);
-      })
-      .catch(() => {
-        alert("Erro ao buscar o FAQ.");
-        setLoading(false);
-      });
+      }
+    };
+
+    loadFaq();
   }, [id]);
 
   if (loading) {

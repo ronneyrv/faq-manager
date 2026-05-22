@@ -1,0 +1,208 @@
+[
+  {
+    "question": "Aferi minha glicose (açucar no sangue) e o resultado foi menor que 180 após o almoço, está normal? ",
+    "answer": "Sim, está tudo bem! Continue com hábitos saudáveis…s glicêmicas exacerbadas e futuras complicações. ",
+    "id": "1"
+  },
+  {
+    "question": "Como a neuropatia diabética é diagnosticada?",
+    "answer": "O diagnóstico envolve uma avaliação clínica, histó…base nos sintomas e na exclusão de outras causas.",
+    "id": "2"
+  },
+  {
+    "id": "3",
+    "question": "Após o diagnóstico de Diabetes a modificação do estilo de vida deve ser uma prioridade?",
+    "answer": "Sim, com certeza! É preciso adotar comportamentos ativo em favor de modificações no estilo de vida.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2020-10-23T11:23:02-03:00"
+  },
+  {
+    "id": "4",
+    "question": "O significa quando o aparelho que mede a glicose marca HI?",
+    "answer": "HI é proveniente da palavra inglesa HIGH, que sign…casos, o ideal é obter auxílio ou contato médico.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:29:25-03:00"
+  },
+  {
+    "id": "5",
+    "question": "Existe tratamento para a neuropatia diabética?\r\n\r\n",
+    "answer": "O tratamento visa aliviar os sintomas e inclui o c…ento é adaptado às necessidades de cada paciente.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:58:31-03:00"
+  },
+  {
+    "id": "6",
+    "question": "O diabetes afeta apenas adultos?",
+    "answer": "Não, a diabetes pode afetar pessoas de todas as id…dultos, mas também pode se desenvolver em jovens.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:20:05-03:00"
+  },
+  {
+    "id": "7",
+    "question": "Quais são as complicações da neuropatia diabética?",
+    "answer": "A neuropatia diabética pode levar a úlceras nos pé…glicose é fundamental para prevenir complicações.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:58:05-03:00"
+  },
+  {
+    "id": "8",
+    "question": "Uma pessoa com Diabetes teve desmaio devido a um quadro de Hipoglicemia, o que devo fazer? ",
+    "answer": "Imediatamente ligar para SAMU! 192! ",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2020-10-23T11:09:37-03:00"
+  },
+  {
+    "id": "9",
+    "question": "Afinal, qual a importância de participar de um pro… de exercício físicos em pacientes com Diabetes? ",
+    "answer": "O exercício físico é um componente essencial da pr…o sobre fatores de risco, terapia psicológica e m",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2020-10-23T11:28:23-03:00"
+  },
+  {
+    "id": "10",
+    "question": "A neuropatia diabética pode ser evitada?",
+    "answer": "A prevenção da neuropatia diabética envolve um con… como pressão arterial elevada e colesterol alto.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:56:44-03:00"
+  },
+  {
+    "id": "11",
+    "question": "O que os fatores psicossociais podem influenciar na minha vida, em relação o Diabetes?",
+    "answer": "Sim, eles podem estar influenciando no autocuidado…mo também na sobrevida de paciente com Diabetes. ",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2020-10-23T11:26:53-03:00"
+  },
+  {
+    "id": "12",
+    "question": "Quais são os sintomas comuns do diabetes?",
+    "answer": "Os sintomas do diabetes podem incluir aumento da s…ssoas com diabetes podem não apresentar sintomas.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T10:58:15-03:00"
+  },
+  {
+    "id": "13",
+    "question": "Qual é o tratamento para o diabetes?",
+    "answer": "O tratamento do diabetes depende do tipo e gravida…trole da pressão arterial e colesterol, bem como ",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:15:15-03:00"
+  },
+  {
+    "id": "14",
+    "question": "Como eu sei que tenho uma boa qualidade de vida?",
+    "answer": "A qualidade de vida refere-se à capacidade do paci…o diagnóstico de Diabetes. Integro em bem-estar..",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2020-10-23T11:08:13-03:00"
+  },
+  {
+    "id": "15",
+    "question": "Quais são as complicações a longo prazo do diabetes?",
+    "answer": "O diabetes mal controlado pode levar a complicaçõe…gue é essencial para prevenir essas complicações.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:18:22-03:00"
+  },
+  {
+    "id": "16",
+    "question": "Qual o significado do aparecimento da sigla LO no aparelho de medir a glicose?",
+    "answer": "LO = LOW/ BAIXO\r\nisso significa hipoglicemia (qu…ações que seu médico lhe deu a respeito de como",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:36:59-03:00"
+  },
+  {
+    "id": "17",
+    "question": "Como o diabetes é diagnosticada?",
+    "answer": "O diabetes é geralmente diagnosticada por meio de …glicose em jejum e teste de tolerância à glicose.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:05:16-03:00"
+  },
+  {
+    "id": "18",
+    "question": "O que é Diabetes? ",
+    "answer": "Diabetes é uma doença crônica que afeta a maneira …ipo 2, em que o corpo não utiliza a insulina adeq",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T10:57:26-03:00"
+  },
+  {
+    "id": "19",
+    "question": "Posso agregar ao meu dia a dia atividades que trabalhe o meu psicológico?",
+    "answer": "Sim, deve! Além da atividade física que pode preve…idade que trabalhe sua concentração e ansiedade. ",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2020-10-23T11:06:25-03:00"
+  },
+  {
+    "id": "20",
+    "question": "A diabetes pode ser curada?",
+    "answer": "O diabetes Tipo 1 não tem cura, uma vez que é uma …mudanças no estilo de vida e tratamento adequado.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:21:54-03:00"
+  },
+  {
+    "id": "21",
+    "question": "A ajuda e o contato com parentes próximos podem me auxiliar nessa fase de tratamento da Diabetes ?",
+    "answer": "Sem dúvidas! É primordial a influência de parentes…os positivos na saúde física e mental dos mesmos.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2020-10-23T11:27:32-03:00"
+  },
+  {
+    "id": "22",
+    "question": "Quais são os sintomas mais comuns da neuropatia diabética?",
+    "answer": "Os sintomas frequentes incluem dormência ou formig… de coordenação e sensibilidade extrema ao toque.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:56:19-03:00"
+  },
+  {
+    "id": "23",
+    "question": "Quais são os fatores de risco para desenvolver diabetes Tipo 2?",
+    "answer": "Os principais fatores de risco para diabetes Tipo …esempenha um papel importante na diabetes Tipo 1.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:04:50-03:00"
+  },
+  {
+    "id": "24",
+    "question": "A diabetes pode ser prevenida?",
+    "answer": "A diabetes Tipo 1 não pode ser prevenida, pois é u…ta equilibrada, atividade física regular e manute",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:12:34-03:00"
+  },
+  {
+    "id": "25",
+    "question": "Exercícios podem ajudar no controle da diabetes?",
+    "answer": "Sim, a atividade física regular pode ajudar a melh…ia, de acordo com as orientações especializadas. ",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:20:46-03:00"
+  },
+  {
+    "id": "26",
+    "question": "Fui liberado para caminhar, mas tenho neuropatia d…ca e sinto cãibras nas pernas. Devo interromper? ",
+    "answer": "Calma! Vamos lá. Primeiramente, o imobilismo ou fi…ício físico. Se as dores persistirem, com inchaço",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2020-10-23T11:20:27-03:00"
+  },
+  {
+    "id": "27",
+    "question": "Existem diferentes tipos de diabetes?",
+    "answer": "Sim, os principais tipos são diabetes tipo 1, tip…to em contato com profissional de saúde especializado.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T10:59:12-03:00"
+  },
+  {
+    "id": "28",
+    "question": "Como devo proceder para controlar o diabetes?",
+    "answer": "O controle do diabetes envolve monitorar os niveis…cterísticas individuais e acompanhamento médico.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:24:01-03:00"
+  },
+  {
+    "id": "29",
+    "question": "O que posso comer se tenho diabetes?",
+    "answer": "Uma alimentação equilibrada é fundamental para o …os especialistas para um plano alimentar adequado.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:14:20-03:00"
+  },
+  {
+    "id": "30",
+    "question": "Quais são os sinais de hipoglicemia?",
+    "answer": "Os sinais incluem tremores, sudorese, fome intensi…r, confusão e até perda de consciência.",
+    "author": "Rachel Rocha ",
+    "questionCreatedAt": "2023-10-17T11:37:24-03:00"
+  }
+]

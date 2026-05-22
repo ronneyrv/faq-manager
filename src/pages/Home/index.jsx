@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import faqService from "../../services/faqService";
 import AddToPhotosIcon from "@mui/icons-material/AddToPhotos";
 import Ask from "../../components/Asks";
 import {
@@ -19,16 +20,23 @@ export default function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    let url = "http://localhost:3001/faq";
-    setLoading(true);
-    fetch(url)
-      .then((res) => res.json())
-      .then((dados) => {
-        setFaqs(dados);
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
-  }, []);
+  const loadFaqs = async () => {
+    try {
+      setLoading(true);
+
+      const dados =
+        await faqService.getFaqs();
+
+      setFaqs(dados);
+    } catch {
+      console.log("Erro");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  loadFaqs();
+}, []);
 
   const handleChange = (event, value) => {
     setPage(value);

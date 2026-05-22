@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import faqService from "../../services/faqService";
 import {
   Box,
   TextField,
@@ -34,29 +35,23 @@ export default function Add() {
     setError(false);
 
     try {
-      const response = await fetch("http://localhost:3001/faq", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          author,
-          question,
-          answer,
-          questionCreatedAt: creatDate,
-        }),
+      await faqService.createFaq({
+        author,
+        question,
+        answer,
+        questionCreatedAt: creatDate,
       });
 
-      if (response.ok) {
-        setSuccess(true);
-        setQuestion("");
-        setAnswer("");
-        setTimeout(() => {
-          navigate("/");
-        }, 2000);
-      } else {
-        throw new Error("Erro ao adicionar FAQ");
-      }
+      setSuccess(true);
+
+      setQuestion("");
+      setAnswer("");
+      setAuthor("");
+
+      setTimeout(() => {
+        navigate("/");
+      }, 2000);
+      
     } catch (err) {
       console.error(err);
       setError(true);
