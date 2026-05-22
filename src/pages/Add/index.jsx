@@ -51,7 +51,6 @@ export default function Add() {
       setTimeout(() => {
         navigate("/");
       }, 2000);
-      
     } catch (err) {
       console.error(err);
       setError(true);
