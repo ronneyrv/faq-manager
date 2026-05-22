@@ -20,23 +20,22 @@ export default function Home() {
   const navigate = useNavigate();
 
   useEffect(() => {
-  const loadFaqs = async () => {
-    try {
-      setLoading(true);
+    const loadFaqs = async () => {
+      try {
+        setLoading(true);
 
-      const dados =
-        await faqService.getFaqs();
+        const dados = await faqService.getFaqs();
 
-      setFaqs(dados);
-    } catch {
-      console.log("Erro");
-    } finally {
-      setLoading(false);
-    }
-  };
+        setFaqs(dados);
+      } catch {
+        console.log("Erro");
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  loadFaqs();
-}, []);
+    loadFaqs();
+  }, []);
 
   const handleChange = (event, value) => {
     setPage(value);
