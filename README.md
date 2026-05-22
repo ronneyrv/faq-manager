@@ -4,6 +4,7 @@ Aplicação web para gerenciamento de perguntas frequentes (FAQ), desenvolvida c
 
 A aplicação foi construída com foco em organização de código e experiência do usuário, utilizando uma camada de serviços para simular uma API e persistência local de dados com Local Storage.
 
+🌐 **Aplicação online:** https://faq-manager-black.vercel.app/
 ---
 
 ## 🚀 Tecnologias Utilizadas
